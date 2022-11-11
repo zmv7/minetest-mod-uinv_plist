@@ -37,7 +37,7 @@ local function getfs(name)
 		"button[7.2,0.2;2,1;uinv_plist_tphere;TP to here]"
 	end
 	if privs["privs"] then
-		fs = fs .. "button[5.2,6.7;2,1;uinv_plist_revoke;Revoke]"
+		fs = fs .. "button[5.2,8.7;2,1;uinv_plist_revoke;Revoke]"
 	end
 	if privs["kick"] then
 		fs = fs .. "field[8.4,1.7;3,1;uinv_plist_reason;Reason;]" ..
